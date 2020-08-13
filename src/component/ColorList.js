@@ -2,8 +2,8 @@ import React from 'react';
 import "./ColorList.css";
 
 const ColorList = ({colors}) => {
-    const colorList = colors.map((color) => (
-        <div class="controls__color jsColor" style={{backgroundColor: color}}></div>
+    const colorList = colors.map((color, index) => (
+        <div className="controls__color jsColor" key={index} style={{backgroundColor: color}}></div>
     ));
 
     return (

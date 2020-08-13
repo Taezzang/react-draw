@@ -9,6 +9,7 @@
     margin: 8px;
     transition: all .25s;
     cursor: pointer;
+    box-shadow: 2px 2px 3px gray;
 }
 
 .jsColor:hover {
