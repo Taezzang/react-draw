@@ -1,0 +1,40 @@
+.canvas-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.status__box {
+    align-self: baseline;
+    margin-left: 15px;
+}
+
+.color_preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-bottom: 15px;
+
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+}
+
+.line__status {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    background-color: white;
+}
