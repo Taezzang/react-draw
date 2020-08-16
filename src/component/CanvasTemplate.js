@@ -31,8 +31,7 @@ import LinePriview from './LinePreview';
                         <Range range={this.state.range} RangeChangeListner={this.RangeChangeListner} />
                         
                         {this.props.btnList}
-                    
-                        
+                                     
                         {this.props.colorList}
                  </div>
             </div>
